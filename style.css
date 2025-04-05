@@ -1,0 +1,174 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+/* some variable */
+:root {
+  --green-color: #3cb815;
+  --light-green-color: #f23e1e;
+  --light-orange: #ff7e00;
+  --text-color: #1a2428;
+  --bg-color: #fff;
+}
+section{
+  padding: 4.5rem 0 1.5rem
+}
+img {
+width: 100%;
+}
+body{
+  color: var(--text-color);
+
+}
+
+  .navbar-brand{
+    color: yellow;
+    background-color: #3cb815;
+    padding: 6px;
+    font-weight: bold;
+    font-size: x-large;
+
+  }
+
+.bannerimg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80hv;
+  width: 100%;
+ 
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.imgb{
+  object-fit: cover;
+  width: 90%;
+  height: 100%;
+}
+
+.title1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+
+}
+.titlep{
+  font-weight: bolder;
+  font-size:  x-large;
+  color: #3cb815;
+  border:3px solid #3cb815;
+  padding: 10px;
+  margin-right: 20px;
+  
+}
+.dd{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: #c26262;
+  border-width: 6px solid;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+.title{
+  font-size: 16px;
+  padding: 10px;
+
+}
+img {
+  width: 300px;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+article{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+
+
+}
+.contentjaune{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: #f7db09;
+  width: 400px;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding:  15px 10px;
+}
+.article{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.contentjounebutton{
+  border: none;
+  padding: 9px;
+  box-shadow: 5px 5px 10px rgb(255, 9, 9) ;
+}
+
+
+.myfooter{
+  background-color: #1a2428;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+.footerlinks{
+
+  display: flex;
+align-items: start;
+justify-content: space-around;
+flex-direction: column;
+
+}
+h4{
+  color: white;
+  display: flex;
+  align-items: center ;
+ justify-content: center;
+}
+.footercont{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+  margin: 10px;
+}
+.footercont a {
+  text-decoration: none;
+
+  color: white;
+  font-size: large;
+}
+.rithreserve{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
